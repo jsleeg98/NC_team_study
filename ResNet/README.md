@@ -31,11 +31,11 @@
         더 쌓는다고 했을 때, 이미 shallow network에서 가진 출력이 optimal 하다면 그 뒤 layer는 단순히 identity하게 입력과 출력이
         같도록 하는 layer로 기능을하여 가장 마지막 출력으로 넘겨주기만해도 shallow network보다 error가 떨어지지는 않을 것이기 때문이다.
         ⇒ identity mapping을 예시로 설명한 이유
-   * *In real cases, it is unlikely that identity mappings are optimal, but our reformulation may help to precondition 
+   * *"In real cases, it is unlikely that identity mappings are optimal, but our reformulation may help to precondition 
      the problem. If the optimal function is closer to an identity mapping than to a zero mapping, 
      it should be easier for the solver to ﬁnd the perturbations with reference to an identity mapping, 
      than to learn the function as a new one. We show by experiments (Fig. 7) that the learned residual functions 
-     in general have small responses, suggesting that identity mappings provide reasonable preconditioning.*
+     in general have small responses, suggesting that identity mappings provide reasonable preconditioning."*
      * 실제에서는 identity mapping을 하는 layer로 동작하는 것이 최적인 경우가 드물겠지만, 문제를 해결하는 전제 조건을 도와준다. 
      → 만약에 identity mapping이 최적일 때 도움을 준다는 의미 → 실제로 Fig.7 에서는 identity mapping이 되도록 학습 되는 것으로 보아 
      identity mapping이 최적인 경우가 있다는 것도 입증
