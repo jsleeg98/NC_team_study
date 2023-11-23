@@ -1,7 +1,7 @@
 # Deep Residual Learning for Image Recognition
 
 ## Summary
-1.네트워크는 깊을수록 성능이 좋다.
+1. 네트워크는 깊을수록 성능이 좋다.
 2. 깊으면 vanishing/exploding gradient가 발생하여 수렴(Convergence)하기 어렵다.
     → normalization, SGD로 해결 가능
 3. 깊으면 수렴하지만 degradation이 발생하는 문제 발생
