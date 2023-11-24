@@ -19,6 +19,7 @@
 1. Analysis of Layer Responses 질문
 
    ![img_3.png](img_3.png)
+
    1. Analysis of Layer Responses에서 std이 작다는 것이 왜 residual function이 0에 가까워지는 것과 연관이 되는지?
         * 전체 response와 해당 layer의 response를 비교했을 때 std가 작다면 전반적인 layer의 response와 그 편차가 크지 않다는 말이기 
         때문이다.
